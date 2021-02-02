@@ -8,14 +8,18 @@ The goal of this project is to tune hyperparameters for Ensemble based Learning 
 
 ## Problem Statement
 Through analysis, the following questions are answered:
-Part 1: On Local Machine
+
+*Part 1: On Local Machine*
+
   - How does Python vs PySpark perform for basic data loading using data stored locally?
   - How does Python vs PySpark perform for data imputation tasks?
   - How does the performance of Python vary as we tune hyperparameters using a Grid Search and Random Search for a Random Forest Model and a Gradient Boosted Tree Model?
   - How does performance of PySpark vary as we tune hyperparameters using Cross Validation and Train Validation techniques for a Random Forest Model and a Gradient Boosted Tree Model?
   - How does the performance of Python vs PySpark vary with change in the size of the
 dataset?
-Part 2: On Databricks
+
+*Part 2: On Databricks*
+
   - How does PySpark perform for basic data loading with data stored on an S3 bucket?
 - How does PySpark perform for data imputation tasks?
 - How does PySpark perform as we vary hyperparameters using Cross Validation and Train Validation techniques for a Random Forest Model and Gradient Boosted Model?
